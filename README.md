@@ -29,15 +29,14 @@ A modern and responsive web-based application for food delivery businesses. This
 ```
 food-delivery/
 ├── public/
-│   └── index.html
+├── screenshot 
 ├── src/
 │   ├── assets/             # Images, icons, etc.
+           ├── admin_assets
+           ├── frontend_assets
 │   ├── components/         # Reusable components (Header, Sidebar, etc.)
 │   ├── context/            # Context API files
 │   ├── pages/              # Page components (Login, Dashboard, etc.)
-│   ├── routes/             # Route definitions
-│   ├── services/           # API calls and helper functions
-│   ├── styles/             # Custom CSS or Tailwind configurations
 │   ├── App.jsx
 │   └── main.jsx
 ├── .gitignore
